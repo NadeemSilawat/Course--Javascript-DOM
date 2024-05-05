@@ -1,6 +1,9 @@
 let newElement = document.createElement('input');
 let newElement1 = document.createElement('div');
 
+newElement.value = "NadeemSilawat"
+
+
 console.log(newElement)
 
 let ul = document.createElement('ul')
