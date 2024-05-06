@@ -18,4 +18,4 @@ for(let fruit of fruitList){
     myList.appendChild(newItems);
 }
 
-
+    
