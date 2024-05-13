@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript DOM Tutorial </title>
     <style>
+        body{
+            margin: 0;
+        }
         .dcode {
             width: 250px;
             height: 100px;
@@ -27,14 +30,69 @@
         .big-font {
             font-size: 36px
         }
+        nav{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            z-index: 99;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        h2{
+          padding-top: 20px;
+        }
+
+
     </style>
 </head>
 
 <body>
 
-    <h2>Node Clone - JS DOM</h2>
+    <nav>
+        Navigation
+    </nav>
+    <h2>Node.nextElementSilbling - JS DOM</h2>
+
     <ul id="myList">
         <li>Apples</li>
+        
+        <li>Bananas</li>
+        <li>Pears</li>
+    </ul>
+
+    <ul id="myList">
+        <li>Apples</li>
+        
+        <li>Bananas</li>
+        <li>Pears</li>
+    </ul>
+
+    <ul id="myList">
+        <li>Apples</li>
+        
+        <li>Bananas</li>
+        <li>Pears</li>
+    </ul>
+
+    <ul id="myList">
+        <li>Apples</li>
+        
+        <li>Bananas</li>
+        <li>Pears</li>
+    </ul>
+
+    <ul id="myList">
+        <li>Apples</li>
+        
+        <li>Bananas</li>
+        <li>Pears</li>
+    </ul>
+
+    <ul id="myList">
+        <li>Apples</li>
+        
         <li>Bananas</li>
         <li>Pears</li>
     </ul>
@@ -46,8 +104,9 @@
     <!-- <script src="05-document-fragment.js"></script> -->
     <!-- <script src="06-classlist-property.js"></script> -->
     <!-- <script src="07-dataset-property.js"></script> -->
-    <!-- <script src="08-insert-before.js"></script> -->
-    <script src="09-node-clone.js"></script>
+    <!-- <script src="08-insert-before.js"></sc ript> -->
+    <!-- <script src="09-node-clone.js"></script> -->
+    <script src="10-next-element-sibling.js"></script>
 </body>
 
 </html>
