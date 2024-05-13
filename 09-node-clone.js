@@ -3,6 +3,8 @@ const listChildren = myList.children;
 
 
 const bananasItem = listChildren[1];
-const bananasCopy = bananasItem.cloneNode();
+const bananasCopy = bananasItem.cloneNode(true);
 
-console.log(bananasCopy)
+myList.appendChild(bananasCopy)
+
+// console.log(bananasItem)
