@@ -9,5 +9,9 @@ window.addEventListener('scroll', function () {
   } else {
     box.classList.remove('red-bg');
   }
+  
   console.log(box.getBoundingClientRect().bottom, window.innerHeight);
 });
+
+
+
