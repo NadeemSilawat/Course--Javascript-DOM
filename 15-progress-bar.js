@@ -30,4 +30,8 @@ class ProgressBar  {
 
 
 
-  const pb1 = new ProgressBar(document.querySelector('.progress-bar'),2)
+  const pb1 = new ProgressBar(document.querySelector('.progress-bar'),
+  setTimeout(() => {
+   pb1.setValue(23)
+  }, 1000)
+);
