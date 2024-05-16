@@ -16,13 +16,41 @@
         expedita ullam facilis distinctio quod minima sunt, velit eum reprehenderit illo atque, blanditiis nihil sed.
 
     </p>
+
+    <input type="text" id="inputbox" >
     <script>
-        const parentDocument = window.parent.document;
-        const parentHeading = parentDocument.getElementById('heading')
-        const para = document.getElementById('para')
+        // const parentDocument = window.parent.document;
+        // const parentHeading = parentDocument.getElementById('heading')
+        // const para = document.getElementById('para')
 
-        para.textContent = para.textContent + parentHeading.textContent;
+        // para.textContent = para.textContent + parentHeading.textContent;
 
+        /* -------------------------------- */
+        const inputbox = document.getElementById('inputBox')
+
+
+
+
+        /* Button */
+
+        const btn = document.createElement('Button');
+        btn.textContent = "Click";
+        btn.setAttribute('id', 'after');
+
+        document.body.appendChild(btn)
+
+        const after = document.getElementById('after')
+
+       /*  after.addEventListener('click', function () {
+            after.style.backgroundColor ="black";
+            after.style.color ="white";
+
+        }); */
+        inputbox.addEventListener('onclick', function (e) {
+            e.style.background ="green";
+            
+
+        });
     </script>
 </body>
 
