@@ -1,6 +1,10 @@
+/* create <ul id = 'myList'></ul> */
+const ul = document.createElement('ul');
+ul.setAttribute('id','myList');
 
+console.log(ul)
 
-/* create this : <li    >[text]</li> */
+/* create this : <li>[text]</li> */
 
 function createItems(text){
     var li = document.createElement('li') ;
