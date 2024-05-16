@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textContent VS innerHTML</title>
+</head>
+
+<body>
+    <script>
+        const div = document.createElement('div');
+        // div.setAttribute('id','myDiv');
+
+        // innerHTML Property DOM
+
+        div.innerHTML = 'My Name is <strong>Nadeem</strong>';
+        document.body.appendChild(div);
+
+        // textContent Property Tag not access
+        div.textContent = 'My Name is <strong>Nadeem</strong>';
+        document.body.appendChild(div);
+    </script>
+</body>
+
+</html>
