@@ -45,3 +45,10 @@ if(target.matches('li')){
 }
 })
 
+// <li>Code</li>
+
+const newLi = document.createElement('li');
+
+newLi.textContent = "Code"
+
+myList.appendChild(newLi);
